@@ -42,6 +42,7 @@ public class Main extends ListActivity
         fillData();
     }
 
+    // file data
     private void fillData()
     {
         mNotesCursor = mDbHelper.getAll();
